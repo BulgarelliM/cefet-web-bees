@@ -1,0 +1,46 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient( 0deg, #75d777, #aaeb8c, #f6ffae,#d0efd1, #b4d9eb );
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    margin-top: 0px;
+    margin: 0px 10% 0px 10%;
+}
+
+p {
+    text-align: justify;
+}
+
+#img-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.curiosidade {
+    border: 1px solid #f6b228;
+    background-image: url(imgs/favo-de-mel.png);
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+p.curiosidade > img {
+    margin-right: 20px;
+    float: left;
+}
+
+.casta-de-abelha {
+    border-radius: 50%;
+    border: 5px double #f6b228;
+}
+
+.casta-de-abelha:first-of-type {
+    float: left;
+}
+.casta-de-abelha:last-of-type {
+    float: right;
+}
