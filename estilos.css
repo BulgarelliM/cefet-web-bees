@@ -87,6 +87,6 @@ p:last-of-type {
     text-align: right;
 }
 
-img:not([alt]) {
+img:not(img[alt]) {
     border: 5px solid red;
 }
